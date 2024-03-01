@@ -1,0 +1,190 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+.bordaVermelha{
+    border: solid 1px red;
+}
+.centerTexto{
+    text-align: center;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    text-decoration: none;
+}
+body{
+    
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+      
+}
+
+header{
+    width: 1050px;
+    border: solid red 1px;
+    padding: 10px 0px 10px 0px;
+    background-color: rgb(221, 97, 97);
+    display: flex;
+}
+.logo{
+    width: 300px;
+    background-color: blue;
+    border-radius: 10px;
+    position: relative;
+    left: 50px;
+    
+}
+.ulHeader{
+    position: relative;
+    left: 200px;
+    top: 30px;
+}
+.liLogo{
+    font-size: 50px;
+    color: black;
+    list-style-type: none;
+}
+
+.main{
+    display: flex;
+}
+main p{
+    font-size: 1rem;
+}
+.figure{
+    position: relative;
+    left: 40px;
+}
+figure{
+    padding: 5px;
+}
+.imagem{
+    width: 120px;
+    border-radius: 20px;
+    margin: 20px 20px 0 20px;
+}
+.botao{
+    border: none;
+    background-color: rgb(211, 209, 209);
+    border-radius: 10px;
+    margin: 5px;
+}
+.aColor:visited{
+    color: red;
+}
+.aUnderline:hover{
+    text-decoration: underline green;
+}
+
+.divLateral1{
+    background-image: url(/assts/img/backGround/backGroundDiv1.jpg);
+    background-position: center;
+    width: 35%;
+    
+   
+}
+.divLateral2{
+    background-image: url(/assts/img/backGround/back2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 35%;
+    background-size: 950px;
+}
+
+footer{
+    height: 170px;
+    background-color: rgb(221, 97, 97);
+    padding: 10px 0px 10px 0px;
+}
+footer a{
+    color: black;
+}
+.h4Esquerda{
+    position: relative;
+    left: 460px;
+}
+.icon{
+    position: relative;
+    left: 50px;
+}
+.divBorda{
+    position: relative;
+    left: 430px;
+
+    margin-top: 10px;
+    width: 165px;
+    border-radius: 10px;
+    border: black 2px solid;
+}
+/*pagina solo leveling*/
+
+.SemTextoDecorado{
+    text-decoration: none;
+    list-style-type: none;
+
+}
+.ulFlex{
+    display: flex;
+
+}
+.espaco{
+    align-content: space-around;
+    list-style-type: none;
+    color: red;
+}
+.liPreenchimento{
+    margin: 0px 10px 0px 10px;
+}
+.caixa{
+    border: 2px solid maroon;
+    border-radius: 10px;
+    
+}
+iframe{
+    border: solid black;
+    margin: 5px;
+    margin-bottom: 30px;
+    padding: 5px;
+    border-radius: 20px;
+    background-color: black;
+
+}
+
+/*formulario*/
+.pMargin{
+    margin-top: 30px;
+}
+
+form{
+    background-color: gray;
+    margin: 30px;
+    padding: 5px;
+    padding-top: 20px;
+    text-align: center;
+    border-radius: 20px;
+}
+form button{
+    margin: 5px;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.h2Formulario{
+    position: relative;
+    left: 10px;
+    top: 20px;
+    margin: 5px;
+
+}
+.aFormulario{
+    text-decoration: none;
+    list-style-type: none;
+    color: black;
+    font-size: 1.5rem;
+}
+form label{
+    font-size: 1.2rem;
+}
