@@ -1,1 +1,0 @@
-//alert('Bem-Vindo ao Clube, fique livre para interagir com os outros Otakus!')
